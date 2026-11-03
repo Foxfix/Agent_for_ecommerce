@@ -1,0 +1,10 @@
+[project]
+name = "store-agent"
+version = "1.0.0"
+description = "A customer support agent you can plug into any online store"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q -p no:warnings"

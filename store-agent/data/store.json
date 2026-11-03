@@ -1,0 +1,34 @@
+{
+  "store": "Harbor Goods",
+  "customers": {
+    "c-7731": {"name": "Alex Johnson", "email": "alex.j@example.com"},
+    "c-2040": {"name": "Maria Lopez", "email": "maria.l@example.com"}
+  },
+  "products": [
+    {"id": "p-100", "title": "Storm Jacket", "category": "jackets", "price": 89.0, "waterproof": true,
+     "description": "Light waterproof rain jacket with a hood.", "stock": {"S": 3, "M": 0, "L": 5}},
+    {"id": "p-101", "title": "Trail Shell", "category": "jackets", "price": 129.0, "waterproof": true,
+     "description": "Breathable waterproof shell for hiking.", "stock": {"S": 2, "M": 4, "L": 1}},
+    {"id": "p-102", "title": "City Parka", "category": "jackets", "price": 159.0, "waterproof": false,
+     "description": "Warm winter parka with a fleece lining.", "stock": {"M": 6, "L": 2}},
+    {"id": "p-200", "title": "Trail Runner Shoes", "category": "shoes", "price": 74.0, "waterproof": false,
+     "description": "Light running shoes with a grippy sole.", "stock": {"40": 4, "41": 0, "42": 7, "43": 2}},
+    {"id": "p-201", "title": "Harbor Boots", "category": "shoes", "price": 119.0, "waterproof": true,
+     "description": "Waterproof leather boots.", "stock": {"41": 3, "42": 3, "43": 0}},
+    {"id": "p-300", "title": "Day Pack 20L", "category": "bags", "price": 49.0, "waterproof": false,
+     "description": "Everyday backpack with a laptop sleeve.", "stock": {"one size": 12}},
+    {"id": "p-301", "title": "Dry Bag 10L", "category": "bags", "price": 25.0, "waterproof": true,
+     "description": "Roll-top waterproof bag.", "stock": {"one size": 0}}
+  ],
+  "orders": [
+    {"id": "1042", "customer_id": "c-7731", "status": "shipped", "placed_on": "2026-10-08",
+     "delivery_estimate": "2026-10-16", "delivered_on": null,
+     "items": [{"product_id": "p-100", "title": "Storm Jacket", "size": "L", "price": 89.0}]},
+    {"id": "1043", "customer_id": "c-7731", "status": "delivered", "placed_on": "2026-09-28",
+     "delivery_estimate": "2026-10-02", "delivered_on": "2026-10-02",
+     "items": [{"product_id": "p-200", "title": "Trail Runner Shoes", "size": "42", "price": 74.0}]},
+    {"id": "1044", "customer_id": "c-2040", "status": "processing", "placed_on": "2026-10-14",
+     "delivery_estimate": "2026-10-21", "delivered_on": null,
+     "items": [{"product_id": "p-301", "title": "Dry Bag 10L", "size": "one size", "price": 25.0}]}
+  ]
+}
