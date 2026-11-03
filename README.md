@@ -46,6 +46,12 @@ This repository is the **complete source code** behind the paid workshop **"Buil
 
 It is not a toy demo. It's a customer support agent that **does real work** in a store: looks up live order status, checks stock, searches products, answers policy questions, and opens return requests that wait for human approval. It plugs into any shop through a single connector contract.
 
+[![Watch Playlist](https://img.youtube.com/vi/WNfaRno07Ho/maxresdefault.jpg)](https://youtu.be/WNfaRno07Ho)
+
+▶️ [What we will be working on](https://youtu.be/WNfaRno07Ho)
+
+
+
 | | |
 |---|---|
 | 🧠 **Think** | Claude on Amazon Bedrock, with the loop run by Strands Agents |
